@@ -4,17 +4,16 @@ MacOS or Linux with Ruby(2.0.0 or higher is recommended)
 
 # Preparation
 
-1. unzip search_address.zip on a directory you like
-2. download http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
-3. unzip the file you downloaded in step 2. and move 'KEN_ALL.CSV' to search_address directory
-4. cd search_address
+1. download http://www.post.japanpost.jp/zipcode/dl/oogaki/zip/ken_all.zip
+2. unzip the file you downloaded in step 1. and move 'KEN_ALL.CSV' to the app's root directory
+3. cd app's root directory
 
 # Execution
 
 execute:  
 `$ ruby search_address.rb`
 
-The first time you execute the command above, 'ken_all_index' file will be created in search_address directory.  
+The first time you execute the command above, 'ken_all_index' file will be created in the app's root directory.  
 (NOTE: This takes a few minutes. You can enjoy a cup of coffee.)
 
 After 'ken_all_index' is created, you will be asked to type some words to search for addresses like '渋谷'.  
