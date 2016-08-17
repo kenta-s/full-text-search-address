@@ -18,7 +18,7 @@ The first time you execute the command above, 'ken_all_index' file will be creat
 
 After 'ken_all_index' is created, you will be asked to type some words to search for addresses like '渋谷'.  
 And then up to 100 records regarding the words you typed will be printed.  
-When the records is more than 100, you will be asked if you want to see another page(For example 101 ~ 200).  
+When there are more than 100 records, you will be asked if you want to see another page(For example 101 ~ 200).  
 If you type 'y', you will be asked which page you want to see. So just type a page number.
 
 # How to quit
